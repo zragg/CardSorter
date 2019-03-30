@@ -1,0 +1,10 @@
+difference(){
+    union(){
+        cube([186,71,1],center=true);
+        translate([-1,0,0.5]){cube([185,67,2],center=true);}
+    };
+    union(){
+        translate([-15,0,0.5]){cube([170,30,8],center=true);}
+        translate([70,0,2]){cylinder(h=8,r=15,center=true);}
+    };
+}
